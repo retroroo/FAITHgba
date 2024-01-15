@@ -1,0 +1,99 @@
+{
+  "version": "3.1.0-e15",
+
+  "fields": [    
+    {
+      "key": "adv_solid_group",
+      "label": "Solid Actor Collision Group",
+      "group": "Adventure Plus",
+      "type": "select",
+      "options": [
+        [0, "None"],
+        [2, "Collision Group 1"],
+        [4, "Collision Group 2"],
+        [8, "Collision Group 3"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "adv_solid_stick",
+      "label": "Solid Actor Friction Effect",
+      "group": "Adventure Plus",
+      "type": "select",
+      "options": [
+        [0, "Player Slides Off When Pushing at an Angle"],
+        [1, "Player Stops When Pushing at an Angle"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "adv_direction_type",
+      "label": "Movement Type",
+      "group": "Adventure Plus",
+      "type": "select",
+      "options": [
+        [0, "Only 4 directions"],
+        [1, "Angled Movement (GBS Default)"],
+        [2, "Forward Movement and Strafing"],
+        [3, "Isometric 4 Directions"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "adv_vel",
+      "label": "Movement Velocity",
+      "group": "Adventure Plus",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 6400,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "key": "adv_strafe_vel",
+      "label": "Strafe Velocity",
+      "group": "Adventure Plus",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 6400,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "key": "adv_acceleration_type",
+      "label": "Use Acceleration",
+      "group": "Adventure Plus",
+      "type": "select",
+      "options": [
+        [0, "No"],
+        [1, "Yes"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "adv_acc",
+      "label": "Movement Acceleration",
+      "group": "Adventure Plus",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 152,
+      "min": 0,
+      "max": 768
+    },
+    {
+      "key": "adv_dec",
+      "label": "Movement Deceleration",
+      "group": "Adventure Plus",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 208,
+      "min": 0,
+      "max": 768
+    }
+ 
+  ]
+}
