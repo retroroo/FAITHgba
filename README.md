@@ -17,4 +17,6 @@ If you make a helpful change, please create a pull request and I will review and
 
 
 # That seems hard, how else can I help?
-I refuse to accept donations until the game is released, until then please bug me to finish it. Im known for procrastinating, and knowing a game is wanted motivates me.
+There are support links in my profile. Im known for procrastinating, and knowing a game is wanted motivates me. Sharing this project on social media would also help.
+
+Many thanks
